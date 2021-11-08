@@ -17,7 +17,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'ARMME'
+    azureResourceManagerConnection: 'Azure RG'
     subscriptionId: '506ab4e3-1230-408a-a094-027e39fc645c' #Change for yours
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMPipelinesDAVE-rg'
